@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FoxAnimationComponent } from './fox-animation/fox-animation.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FoxAnimationComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
